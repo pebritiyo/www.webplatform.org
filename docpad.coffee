@@ -8,6 +8,15 @@ docpadConfig = {
           name: "WebPlatform"
           title_append: " · WebPlatform.org"
           tagline: "Your Web, documented"
+
+    # see: http://docpad.org/docs/config
+    #      node_modules/docpad-plugin-nodesass/README.md
+    plugins:
+        nodesass:
+          debugInfo: 'map'
+          neat: true
+          renderUnderscoreStylesheets: false
+          sourceMap: true
 }
 
 # Export the DocPad Configuration
